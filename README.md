@@ -16,7 +16,7 @@ By integrating data from product and order dimensions with a central fact table,
 
 ---
 
-## Star Schema Design
+## Schema Design
 
 A star schema was implemented to support scalable reporting and data slicing. It consists of a central fact table (`FactSales`) surrounded by descriptive dimension tables. Each dimension describes a different business aspect (e.g., product, order mode), while the fact table stores transaction-level sales data.
 
@@ -85,7 +85,7 @@ Once connected, all data updates in Power BI can be refreshed dynamically based 
 
 The Power BI dashboard provides several important views to support decision-making:
 
-![Power BI Dashboard](powerbi/screenshots/Aqsa_Shabbir_Dashboard.png)
+![Power BI Dashboard](powerbi/screenshots/Kousar_Saleem_Dashboard.png)
 
 ### Visual Highlights
 
