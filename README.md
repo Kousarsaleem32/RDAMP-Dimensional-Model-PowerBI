@@ -116,7 +116,7 @@ These queries are included in the SQL file and can be reused for ad-hoc analysis
 
 ## Recommendations and Final Insights
 
-The dashboard analysis of Ace Superstore's sales performance has revealed several actionable insights. The Product Seasonality Trends view clearly indicates that the Portable Refrigerator Freezer was the highest-grossing product, reaching a revenue peak of 10,549.35 in March 2025 and accumulating a total of 51,380.05 over the observed period. 
+The **Product Seasonality Trends** view clearly indicates that the Portable Refrigerator Freezer was the highest-grossing product, reaching a revenue peak of 10,549.35 in March 2025 and accumulating a total of 51,380.05 over the observed period. 
 
 The **Discount vs. Profit Analysis** scatter plot reveals a clear negative correlation between discount rates and average profit per transaction. While lower discount rates maintain higher average profits (around **20–23** units), profit margins noticeably drop as discount rates rise beyond **0.25**, where profits begin to fall below **17** units per transaction. This confirms that aggressive discounting diminishes profitability. To maintain margins while encouraging sales, the company should consider controlled promotional strategies, such as time-limited discounts or bundling offers.
 
