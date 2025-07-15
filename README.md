@@ -74,8 +74,7 @@ To visualize the data:
 1. Open Power BI Desktop.
 2. Select **Get Data → PostgreSQL Database**.
 3. Input your server details and database name.
-4. Under **Advanced Options**, paste a SQL query like `SELECT * FROM vw_product_seasonality` or select from the available views.
-5. Load the data, then use Power BI’s interface to design interactive visuals.
+4. Load the data, then use Power BI’s interface to design interactive visuals.
 
 Once connected, all data updates in Power BI can be refreshed dynamically based on the underlying SQL views.
 
@@ -115,17 +114,18 @@ These queries are included in the SQL file and can be reused for ad-hoc analysis
 
 ---
 
-## Recommendations Based on Insights
+## Recommendations and Final Insights
 
-From the dashboard, multiple key insights were uncovered. The **Product Seasonality** view makes it evident that some products show sharp peaks in certain months, such as Electric Bikes and Cameras during mid-year. This suggests an opportunity to align marketing efforts and inventory around peak seasons for these items.
+The dashboard analysis of Ace Superstore's sales performance has revealed several actionable insights. Starting with the **Product Seasonality Trend**, the heatmap shows significant spikes in product revenue during specific months. For instance, *Electric Bikes* saw a dramatic surge in July 2023 with sales of **9,890.54**, and the *Wireless Security System* peaked in August 2023 at **8,382.72**. These strong seasonality patterns suggest that Ace should proactively align inventory planning and marketing campaigns with expected high-demand periods to capture maximum revenue.
 
-The **Discount vs. Profit** analysis confirmed that while offering discounts can drive transactions, it also reduces per-transaction profitability. A better strategy would involve targeted discounts or bundling to maintain margins.
+The **Discount vs. Profit Analysis** scatter plot reveals a clear negative correlation between discount rates and average profit per transaction. While lower discount rates maintain higher average profits (around **20–23** units), profit margins noticeably drop as discount rates rise beyond **0.25**, where profits begin to fall below **17** units per transaction. This confirms that aggressive discounting diminishes profitability. To maintain margins while encouraging sales, the company should consider controlled promotional strategies, such as time-limited discounts or bundling offers.
 
-Sales channel analysis revealed a near-even split in profits, with in-store slightly outperforming online. While digital transformation should continue, physical stores should still receive adequate investment in customer service, stock availability, and promotions.
+The **Profitability Comparison Across Channels** pie chart indicates that *In-Store* sales contribute slightly more to total profit, accounting for **51.59% (1.1M)** compared to **48.41% (1.03M)** from *Online* orders. Although both channels are nearly balanced, the slightly higher in-store profitability suggests that physical retail locations continue to be valuable. Maintaining investments in store operations—such as stock availability, staff training, and in-store promotions—will be essential, even as online growth continues.
 
-Customer profitability analysis showed that a small group of customers contributes a large portion of profits. These high-value customers should be nurtured through loyalty programs, personalized offers, and proactive service.
+These views together show a strong case for a dual-channel retail strategy supported by seasonal forecasting and strategic pricing. Furthermore, even though not visualized here, prior SQL queries also highlighted that a subset of customers generates disproportionately high profits. These customers can be retained and further engaged using loyalty programs and personalized outreach.
 
-Lastly, some product categories consistently outperform others. Management should consider shifting procurement and promotional resources toward those higher-performing categories to optimize returns.
+Lastly, products such as *Compact Digital Cameras*, *Portable Air Conditioners*, and *Refrigerators* showed consistent sales across multiple months and years. These stable performers should be prioritized in procurement and promotional budgets to ensure steady revenue flow.
+
 
 ---
 
